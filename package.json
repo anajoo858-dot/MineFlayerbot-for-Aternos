@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "tsx ./src/hello.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "start": "tsx ./src/hello.ts"
+  },
+  "dependencies": {
+    "mineflayer": "latest"
   },
   "devDependencies": {
     "@types/node": "20.12.7",
