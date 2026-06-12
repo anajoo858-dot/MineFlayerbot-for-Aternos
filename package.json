@@ -1,19 +1,13 @@
 {
   "name": "bot-for-aternos",
   "version": "1.0.0",
-  "private": true,
-  "main": "./src/hello.ts",
+  "main": "src/hello.ts",
+  "bin": "src/hello.ts",
   "type": "module",
-  "scripts": {
-    "start": "tsx ./src/hello.ts"
-  },
   "dependencies": {
     "mineflayer": "latest"
   },
   "devDependencies": {
-    "@types/node": "20.12.7",
-    "tsx": "4.7.3",
-    "typescript": "5.4.5",
     "pkg": "5.8.1"
   }
 }
