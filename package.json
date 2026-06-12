@@ -2,6 +2,7 @@
   "name": "bot-for-aternos",
   "version": "1.0.0",
   "private": true,
+  "main": "./src/hello.ts",
   "type": "module",
   "scripts": {
     "start": "tsx ./src/hello.ts"
